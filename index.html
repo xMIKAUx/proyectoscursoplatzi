@@ -1,14 +1,18 @@
+<!--las carpetas del proyecto como "img" son CLASES OJO-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pruebas Platzi</title>
 </head>
 <body>
     <h1>Lista de Super</h1>
     <h5>Lacteos</h5>
+        <!--"ol" es ordered list, lista ordenada
+        al mismo tiempo dentro de usa "li" de list,
+        por último esta "ul" unordered list, lista no ordenada-->
         <ol>
             <li>Queso</li>
             <li>Leche</li>
@@ -22,5 +26,37 @@
             <li>Naranjas</li>
             <li>Toronjas</li>
         </ol>
+        <h2>Link hacia las páginas de ejemplos</h2>
+        <ol>
+            <li><a href="./forms/paginaformulario.html">Formularios</a></li>
+            <li><a href="forms/paginaformulario.html" target="_blank">Formularios pero abriendo otra pestaña</a></li>
+            <li><a href="./calendar/paginacalendario.html">Calendario</a></li>
+        </ol>
+        <!--Main es la estructura principal de nuestra página,
+        va dentro de "body"-->
+        <main>
+            <section>
+                <!--figure sirve para el uso de imagenes "img", se pueden colocar
+                varias dentro de "figure con sus descripciones"-->
+                <figure>
+                    <img src="./img/jinx.PNG" alt="Una jinx">
+                    <figcaption>Una simple Jinx</figcaption>
+                </figure>
+                <!--iframe es para colocar videos desde youtube
+                se usa algo en compartir llamado "insertar"
+                da un código y se coloca para reproducir-->
+                <iframe width="560" height="315"
+                 src="https://www.youtube.com/embed/2zJbkCUY_-w"
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+                <!--De la misma manera que la anterior se puede usar
+                video para poder colocar videos desde carpetas como
+                las imágenes-->
+                  <video src=""></video>
+            </section>
+            <section>
+                
+            </section>
+        </main>
 </body>
 </html>
