@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario obligatorio</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Nombre del usuario:</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+
+            <label for="pais">
+                <span>País:</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+
+            <label for="correo">
+                <span>Correo electrónico:</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+
+            <!--Input se usa de forma directa en un formulario para enviar
+            información-->
+            <input type="submit" value="Enviar???">
+
+            <!--Etiqueta de botón sirve un poco más para otro tipo de situaciones
+            se puede usar como input si le colocamos type="submit", pero puede tener
+            otros usos si así se desea como "Like" o "Compartir"-->
+            <button type="submit">Terminar y Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

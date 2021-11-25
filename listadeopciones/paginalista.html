@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de opciones</title>
+</head>
+<body>
+    <!--Mala práctica porque si son muchos datos no se verán completos
+    en telefonos-->
+    <main>
+        <span>Nivel de estudios del usuario:</span>
+       <select name="estudios" id="">
+           <option value="Primaria">Primaria</option>
+           <option value="Secundaria">Secundaria</option>
+           <option value="Preparatoria">Preparatoria</option>
+           <option value="Licenciatura">Licenciatura</option>
+           <option value="Maestria">Maestria</option>
+       </select> 
+
+       <!--Usar el atributo "list" en input deja mostrar varias opciones
+        en un navegador en el caso de ser navegador en dispositivo
+        movil-->
+       <span>Paises</span>
+       <input list="paises">
+       <datalist id="paises">
+           <option value="Mexico"></option>
+           <option value="Brasil"></option>
+           <option value="United States"></option>
+           <option value="Canada"></option>
+           <option value="Japan"></option>
+       </datalist>
+    </main>
+</body>
+</html>
