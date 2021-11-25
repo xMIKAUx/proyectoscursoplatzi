@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruebas Platzi</title>
+    <!--Para linkear el archivo de css puedes usar link o style, style se 
+    puede usar para pocos estilos en la pagina-->
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <h1>Lista de Super</h1>
@@ -37,17 +40,19 @@
         <!--Main es la estructura principal de nuestra página,
         va dentro de "body"-->
         <main>
-            <section>
+            <p>Este es un texto con estilos en css</p>
+            <p class="parraforojo">Este es un ejemplo usando clases para el estilo de algo</p>
+            <p id="textorojo">Este es un ejemplo usando el selector ID en lugar de Clases</p>
                 <!--figure sirve para el uso de imagenes "img", se pueden colocar
                 varias dentro de "figure con sus descripciones"-->
                 <figure>
-                    <img src="./img/jinx.PNG" alt="Una jinx">
+                    <img class="figuras" src="./img/jinx.PNG" alt="Una jinx">
                     <figcaption>Una simple Jinx</figcaption>
                 </figure>
                 <!--iframe es para colocar videos desde youtube
                 se usa algo en compartir llamado "insertar"
                 da un código y se coloca para reproducir-->
-                <iframe width="560" height="315"
+                <iframe width="600" height="370"
                  src="https://www.youtube.com/embed/2zJbkCUY_-w"
                   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen></iframe>

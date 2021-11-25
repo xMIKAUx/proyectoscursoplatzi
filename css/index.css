@@ -1,0 +1,22 @@
+p{
+    color:royalblue;
+    font-size: 30px;
+}
+
+/* Usando clases para cambiar un estilo de un objeto */
+
+.parraforojo{
+    color: red;
+    font-size: 20px;
+}
+
+/* Selector de ID a diferencia de la clase inicia con un númeral */
+
+#textorojo{
+    color: greenyellow;
+    font-size: 50px;
+}
+
+.figuras{
+    width: 350px;
+}
