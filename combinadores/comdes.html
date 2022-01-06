@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores Hijos y Descendientes</title>
+    <link rel="stylesheet" href="./combdes.css">
+</head>
+<body>
+    <div>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <section>
+            <div>
+                <p>Soy un texto</p>
+            </div>
+        </section>
+        <p>Soy un texto</p>
+    </div>
+    <p>En este esjemplo los últimos dos parrafos cambian con el estilo en css "div > p" donde 
+        div es representado como el padre directo de p, el parrafo, por eso los otros dos
+        textos que estan dentro de article no cambian, porque son hijos directos de "article".
+    </p>
+</body>
+</html>
