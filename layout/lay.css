@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    height: 10vh;
+    background-color: grey;
+}
+
+figure, nav{
+    display: inline-block;
+}
+
+figure{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+nav{
+    position: absolute;
+    right: 1rem;
+}
+
+li{
+    font-size: 2rem;
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+aside, section{
+    height: 80vh;
+    display: inline-block;
+}
+
+aside{
+    width: 20vw;
+    background-color: black;
+}
+
+aside div{
+    height: 15vh;
+    margin: 3vh;
+    background-color: green;
+}
+
+main{
+    background-color: royalblue;
+}
+
+section{
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 1rem;
+}
+
+footer{
+    height: 10vh;
+    background-color: seagreen;
+}
+
+.foo-media, .foo-info{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.foo-info{
+    position: absolute;
+    right: 1rem;
+}
+
+
+
+
+

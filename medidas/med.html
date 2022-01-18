@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas</title>
+    <link rel="stylesheet" href="./med.css">
+</head>
+<body>
+    <main>
+        <section class="porcentaje">
+            <p>Hola soy un ejemplo de texto utilizando px y % para las medidas</p>
+        </section>
+
+        <section class="uso-em">
+            <p>Soy un ejemplo de utilizando EM</p>
+            <p>Em toma el tamaño del padre directo, y lo multiplica por
+                el tamaño que se le asigna a EM, po lo que puede ser que se haga
+                cada vez mas grande el tamaño de la letra o elemento en algunos casos.
+            </p>
+            <div class="div-em">
+                <p>soy un parrafo nuevo y más grande aunque tengo el mismo tamaño asignado
+                    en em, que la clase uso em.
+                </p>
+            </div>
+        </section>
+
+        <section class="uso-rem">
+            <p>Rem siempre va a tener referencia del al estilo que tenga la etiqueta root
+                de nuestro proyecto, en este caso es nuestro HTML, a diferencia de EM que
+                hace referencia de su padre directo que puede tener una dimensión distinta
+                se utiliza 62.5% de font size en html, y así cada 1rem equivale a 10px.
+            </p>
+        </section>
+
+        <section>
+            <p>Utilizar min- max Height o min - max width, nos puede apoyar para acomodar el texto
+                y hacerlo crecer con el contenedor hasta donde se expanda.
+            </p>
+        </section>
+
+        <p>
+            NOTA: <br>
+            Un punto importante acerca de esto, es que uses los primeros dos estilos que se encuentran
+            en el med.css, ya que con eso se reinician los border box, el margin y el padding quedan
+            en ceros, para empezar a hacer las modificaciones de estilos tu mismo. 
+        </p>
+        
+    </main>
+</body>
+</html>
